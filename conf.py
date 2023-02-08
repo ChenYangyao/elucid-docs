@@ -48,6 +48,9 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 html_theme = 'sphinx_book_theme'
 html_theme_options = {
     "home_page_in_toc": True,   
+    "repository_url": "https://github.com/ChenYangyao/elucid-docs",
+    "use_repository_button": True,
+    "use_issues_button": True,
 }
 
 # Add any paths that contain custom static files (such as style sheets) here,
