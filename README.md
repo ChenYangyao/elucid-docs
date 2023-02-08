@@ -30,7 +30,11 @@ This creates and enters a new conda environment and installs the dependencies
 Clone/fork this repository, checkout to the ``dev`` branch, and edit the 
 documentation files, e.g., ``index.rst`` or ``docs/data/index.rst``.
 
-Compile the documentation by ``make html``. You can see the generated html files 
+Build the documentation by
+```bash
+$ make html
+```
+You can see the generated html files 
 under ``_build/html`` directory.
 
 Add and commit your changes (do not include ``_build`` and other private data), 
@@ -38,3 +42,7 @@ and push into the dev branch (included contributors),
 or create a pull request (external contributors).
 
 The administrator will periodically merge the changes into the main branch.
+
+Read the docs online at [readthedocs](https://elucid-docs.readthedocs.io/en/latest/)
+(choose version "latest" for the main branch, or "dev" for the dev branch).
+It may take minutes for the doc to be built.
