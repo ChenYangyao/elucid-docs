@@ -35,11 +35,11 @@ Build the documentation by
 $ make html
 ```
 You can see the generated html files 
-under ``_build/html`` directory.
+under ``_build/html/`` directory.
 
 Add and commit your changes (do not include ``_build`` and other private data), 
-and push into the dev branch (included contributors), 
-or create a pull request (external contributors).
+and push into the dev branch (for included contributors), 
+or create a pull request (for external contributors).
 
 The administrator will periodically merge the changes into the main branch.
 
