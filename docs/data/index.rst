@@ -106,6 +106,7 @@ Note that:
 - ``__attrs__`` means the data object has a set of attached attributes that hold
   the metadata, such as the simulation parameters, number of objects in this 
   data group, etc.
+- The properties (``Halo_M_Crit200``, ``Halo_M_Mean200``, ``Halo_M_TopHat200``, ``Halo_R_Crit200``, ``Halo_R_Mean200`` and ``Halo_R_TopHat200``) are based on the Group with the dimensions ``Ngroup`` (The number of group in a file ``j``).
 
 We will demonstrate the data I/O on ``simulation.hdf5`` 
 in the following sections using ``h5py``, a Python library for manipulating HDF5 files. 
